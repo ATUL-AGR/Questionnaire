@@ -101,8 +101,8 @@ Follow best coding practices and techniques to build the API.
 
 #Ensure the postgres database has a super user named postgres and the password for the same is postgres
 
-#It is assumed You have created a project named questionaire in the projects directory in C: drive. The below command shuld import the tables in postgres database
+#It is assumed You have created a project named questionaire in the projects directory in C: drive. The below command should import the tables in postgres database
 
 psql -U postgres postgres < C:\projects\questionaire\questions.pgsql
 
-#This will import the tables and any data into teh postgress tables. If password is prompted provide the password as postgres
+#This will import the tables and any data into the postgress tables. If password is prompted provide the password as postgres
