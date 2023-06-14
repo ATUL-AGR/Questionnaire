@@ -98,7 +98,9 @@ Follow best coding practices and techniques to build the API.
 ----------------------------------------------------------------------------------
 
 #In order to import the tables into the pubic schema in the postgres database use the following command from the bin directry of the postgres installation.
+
 #Ensure the postgres database has a super user named postgres and the password for the same is postgres
+
 #It is assumed You have created a project named questionaire in the projects directory in C: drive. The below command shuld import the tables in postgres database
 
 psql -U postgres postgres < C:\projects\questionaire\questions.pgsql
